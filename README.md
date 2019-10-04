@@ -1,3 +1,9 @@
+This fork uses the normal shell colors instead of explicit custom ones.
+This means that fish will use the colors you set in your teminal.
+The colors felt really out of place with my theme, so i did this fork.
+
+![terminal colors](https://i.imgur.com/Pp2D7HD.png)
+
 ### Lambda
 
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
