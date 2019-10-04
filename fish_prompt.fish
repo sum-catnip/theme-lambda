@@ -16,28 +16,14 @@ function fish_prompt
   end
 
   # Setup colors
-  #use extended color pallete if available
-#if [[ $terminfo[colors] -ge 256 ]]; then
-#    turquoise="%F{81}"
-#    orange="%F{166}"
-#    purple="%F{135}"
-#    hotpink="%F{161}"
-#    limegreen="%F{118}"
-#else
-#    turquoise="%F{cyan}"
-#    orange="%F{yellow}"
-#    purple="%F{magenta}"
-#    hotpink="%F{red}"
-#    limegreen="%F{green}"
-#fi
   set -l normal (set_color normal)
-  set -l white (set_color FFFFFF)
-  set -l turquoise (set_color 5fdfff)
-  set -l orange (set_color df5f00)
-  set -l hotpink (set_color df005f)
+  set -l white (set_color white)
+  set -l turquoise (set_color cyan)
+  set -l orange (set_color yellow)
+  set -l hotpink (set_color red)
   set -l blue (set_color blue)
-  set -l limegreen (set_color 87ff00)
-  set -l purple (set_color af5fff)
+  set -l limegreen (set_color green)
+  set -l purple (set_color magenta)
  
   # Configure __fish_git_prompt
   set -g __fish_git_prompt_char_stateseparator ' '
